@@ -12,9 +12,11 @@
 
 ## Suggest Editor Settings
 
-```
- "editor.fontFamily": "Iosevka Nerd Font",
- "editor.fontSize": 20,
- "editor.fontLigatures": true,
- "editor.fontWeight": 600,
+```json
+{
+  "editor.fontFamily": "Iosevka Nerd Font",
+  "editor.fontSize": 20,
+  "editor.fontLigatures": true,
+  "editor.fontWeight": 600
+}
 ```
