@@ -1,23 +1,26 @@
 {
   "name": "onedarker-pro",
-  "displayName": "One Darker Pro",
-  "description": "A professional dark theme inspired by One Dark Pro, with enhanced contrast.",
+  "displayName": "One Darker Pro Theme",
+  "description": "A darker theme inspired by One Dark Pro, with an improved contrast theme for Visual Studio Code",
   "version": "0.0.1",
+  "publisher": "pieersx",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pieersx/onedarker-pro"
+  },
   "engines": {
     "vscode": "^1.97.0"
   },
   "categories": [
     "Themes"
   ],
-  "activationEvents": [
-    "onStartupFinished"
-  ],
   "contributes": {
     "themes": [
       {
         "label": "One Darker Pro",
         "uiTheme": "vs-dark",
-        "path": "./themes/OneDarker-Pro-color-theme.json"
+        "path": "./themes/OneDarker-Pro.json"
       }
     ],
     "configuration": {
@@ -47,5 +50,12 @@
     }
   },
   "icon": "./icon.png",
-  "license": "MIT"
+  "keywords": [
+    "one darker",
+    "one darker pro",
+    "onedarker pro",
+    "gruber darker theme",
+    "dark",
+    "theme"
+  ]
 }

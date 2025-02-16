@@ -1,9 +1,10 @@
-# Change Log
+# CHANGELOG
 
-All notable changes to the "onedarker-pro" extension will be documented in this file.
+## [0.0.1] - 2025-02-15
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+### Initial Release
 
-## [Unreleased]
-
-- Initial release
+- First version of **One Darker Pro** theme.
+- Inspired by One Dark Pro with **darker contrast**.
+- Added **bold and italic** text customization options.
+- Integrated **theme configuration settings**.
