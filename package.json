@@ -1,0 +1,51 @@
+{
+  "name": "onedarker-pro",
+  "displayName": "One Darker Pro",
+  "description": "A professional dark theme inspired by One Dark Pro, with enhanced contrast.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Darker Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneDarker-Pro-color-theme.json"
+      }
+    ],
+    "configuration": {
+      "title": "One Darker Pro",
+      "properties": {
+        "oneDarkerPro.bold": {
+          "type": "boolean",
+          "default": true,
+          "description": "Toggle bold on some scopes"
+        },
+        "oneDarkerPro.italic": {
+          "type": "boolean",
+          "default": true,
+          "description": "Toggle italics on some scopes"
+        },
+        "oneDarkerPro.markdownStyle": {
+          "type": "boolean",
+          "default": true,
+          "description": "Toggle Markdown Style"
+        },
+        "oneDarkerPro.vivid": {
+          "type": "boolean",
+          "default": true,
+          "description": "Toggle vivid colors"
+        }
+      }
+    }
+  },
+  "icon": "./icon.png",
+  "license": "MIT"
+}
