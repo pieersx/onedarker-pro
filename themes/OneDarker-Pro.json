@@ -2281,7 +2281,6 @@
 	  "tree.indentGuidesStroke": "#ffffff1d",
 	  "walkThrough.embeddedEditorBackground": "#2e3440",
 	  "welcomePage.buttonHoverBackground": "#404754",
-
 	  "editor.lineHighlightBackground": "#212121",
 	  "activityBar.background": "#181818",
 	  "badge.background": "#181818",
@@ -2317,7 +2316,6 @@
 	  "tab.unfocusedHoverBackground": "#212121",
 	  "titleBar.activeBackground": "#212121",
 	  "titleBar.inactiveBackground": "#181818",
-
 	  "input.border": "#ccc",
 	  "tableHeader.background": "#333",
 	  "tableRow.background": "#2a2a2a",
